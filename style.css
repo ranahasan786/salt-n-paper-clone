@@ -1,0 +1,598 @@
+/* <<<<<<<<<<<<<<<<<<<< Header >>>>>>>>>>>>>>>>>>>> */
+@font-face {
+    font-family: 'appercu';
+    src: url(Fonts/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: 'futurak';
+    src: url(Fonts/futurak.ttf);
+}
+
+@font-face {
+    font-family: 'butler';
+    src: url(Fonts/Butler_Bold_Stencil.otf);
+}
+
+* {
+    font-family: 'appercu';
+}
+
+body {
+    margin: 0px;
+}
+
+/* Logo */
+
+.header {
+    background-color: #000;
+    width: 100%;
+}
+
+.logo>img {
+    width: 150px;
+    padding: 10px 100px;
+    vertical-align: middle;
+}
+
+/* Manu */
+
+.manu>ul>li {
+    display: inline;
+    color: #fff;
+    text-transform: capitalize;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: 'appercu';
+
+}
+
+.manu {
+    padding-left: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.logo,
+.manu {
+    display: inline-block;
+}
+
+/* bottons */
+
+.btns button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.btns_one {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff !important;
+    margin-right: 10px;
+}
+
+.btns_tow {
+    background-color: #ED1C24;
+    color: #fff;
+}
+
+.btns_tow {
+    padding: 10px 18px !important;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.manu>ul {
+    display: inline-block;
+}
+
+.btns_tow>i {
+    border-radius: 100px;
+    padding: 8px 9px;
+    background-color: #fff;
+    color: #ED1C24;
+}
+
+/* <<<<<<<<<<< Hero Banner >>>>>>>> */
+.herobanner {
+    width: 100%;
+}
+
+.herobanner>img {
+    width: 100%;
+}
+
+/* <<<<<<<<<<< Welcome >>>>>>>> */
+.welcomeparent {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.salten>h3 {
+    font-size: 35px;
+    font-weight: lighter;
+    padding-top: 70px;
+    margin: 0px;
+
+
+}
+
+.salten>h3>span {
+    font-family: 'futurak';
+    font-size: 50px;
+
+}
+
+.salten p {
+    color: #AFAFAF;
+    margin-top: 0px;
+    font-size: 16px;
+
+}
+
+/* <<<<<<<<<<< Three Cards >>>>>>>> */
+.Three_cards {
+    display: inline-flex;
+}
+
+.card {
+    background-color: #fff;
+    width: 200px;
+    padding: 25px 15px;
+    border-radius: 3px;
+}
+
+.card_container {
+    margin: 20px 12px;
+
+}
+
+.card>img {
+    width: 100%;
+}
+
+.card_button {
+    width: 220px;
+}
+
+.card_button>button {
+    border: none;
+    padding: 13px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+}
+
+.reserve {
+    padding: 13px 35px !important;
+}
+
+/* << Salt'n Pepper Restaurant Franchises >> */
+
+.salten_parent {
+    background-color: #0F0F0F;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.salten_parent h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.Style_Salten>h3>span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+
+.Style_Salten>p {
+    color: #AFAFAF;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* <<< Heading images >>> */
+.heading_box {
+    background-color: #0F0F0F;
+    text-align: left;
+    margin: 0px;
+    padding-left: 150px;
+    color: #fff;
+    width: 620px;
+
+
+
+}
+
+.isl_red {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: -15px;
+}
+
+.getdirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+
+
+}
+
+.getdirection i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #ED1C24;
+}
+
+.heading_box span {
+    font-family: 'futurak';
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 29px;
+    background-color: #0F0F0F;
+}
+
+.Restaurant {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+address {
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+address i {
+    letter-spacing: 3px;
+}
+
+.image_01>img {
+    width: 90%;
+    padding-right: 100px;
+
+}
+
+.father {
+    display: inline-flex;
+    background-color: #0F0F0F;
+
+}
+
+.image_02>img {
+    width: 90%;
+    padding-left: 100px;
+
+}
+
+/* << Salt'n Pepper Express Franchises >> */
+
+/* Heading */
+.salten03 {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0px;
+    background-color: #000;
+}
+
+.salten03 span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+
+.salten03>h2 {
+    margin: 0px;
+}
+
+.salten03 h3 {
+    font-size: 48px;
+    font-family: 'butler';
+    margin: 0px;
+}
+
+/*  Franchises IMG 01 */
+.center {
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.image01 {
+    width: 300px;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+.image_container {
+    margin: 0px 12px;
+
+}
+
+.image01>img {
+    width: 100%;
+}
+
+.parent_add01 {
+
+    background-color: #000;
+    width: 250px;
+    padding: 0px;
+    text-align: center;
+}
+
+.Franchise01 {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.Franchise01 img {
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.head_pack>h3 {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+}
+
+.head_exp {
+    text-align: center;
+}
+
+.head_exp {
+    font-size: 22px;
+    padding-right: 0px;
+
+}
+
+.head_exp h3 {
+    margin: 0px;
+    color: #fff;
+    letter-spacing: 0.9px;
+}
+
+.head_exp span {
+    font-family: 'futurak';
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.add {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.parent_line01 {
+    display: inline-flex;
+}
+
+.frendirection {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* << Village Frenchise >>> */
+
+.salten_Village {
+    background-color: #0F0F0F;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.salten_Village h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.village_Salten>h3>span {
+    font-family: 'futurak';
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+.village_box {
+    background-color: #0F0F0F;
+    text-align: left;
+    color: #fff;
+    padding: 0%;
+    
+
+}
+
+.isl_red {
+    color: #ED1C24;
+    font-family: 'appercu';
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.get_green {
+    border: none;
+    padding: 13px 30px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid#4D4D4D !important;
+    margin-top: 20px;
+    margin-bottom: 125px;
+    background-color: #28A745;
+
+
+}
+
+.get_green i {
+    border: none;
+    padding: 5px 5px;
+    border-radius: 55px;
+    background-color: #fff;
+    color: #28A745;
+}
+
+.village_box span {
+    font-family: 'futurak';
+    letter-spacing: px;
+    margin: 0px;
+    font-size: 35px;
+    background-color: #0F0F0F;
+}
+
+.Restaurant_village {
+    font-family: 'appercu' !important;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+.cell_village{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.cell_nmber i {
+    letter-spacing: 3px;
+}
+
+.village_image>img {
+    width: 90%;
+    padding: 0%;
+}
+
+.father {
+    display: inline-flex;
+    background-color: #0F0F0F;
+
+}
+
+/* Address Section */
+.add_parent
+{
+    background-color: #000;
+    color: #000;
+    text-align: center;
+}
+
+.add_head {
+
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.add_head h3 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'butler';
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.add_head>h3>span {
+    font-family: 'futurak';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.Opening
+{
+    font-family: 'butler' !important;
+    font-size: 20px !important;
+}
+
+/* Address */
+.add_image
+{
+display: inline-flex;
+}
+
+.img_02
+{
+padding: 0px 20px;
+}
+/* Social Feeds */
+.social_feed_head
+{
+text-align: center;
+
+background-color: #000;
+
+}
+.social_feed_head > h2
+{
+    margin: 0% ;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'butler' !important;
+    font-size: 38px;
+}
+
+
+
+.social_Feed
+{
+    display: inline-flex;
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social_Feed img
+{
+width: 90%;
+
+}
